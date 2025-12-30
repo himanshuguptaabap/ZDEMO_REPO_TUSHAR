@@ -5,8 +5,8 @@ CLASS zcl_abap_demo DEFINITION
 
   PUBLIC SECTION.
     DATA : gv_name TYPE char100.
-    data : gv_name1 type char100.
-
+    DATA : gv_name1 TYPE char100.
+    DATA : gv_name2 TYPE char100.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
