@@ -4,7 +4,8 @@ CLASS zcl_abap_demo DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-  DATA : GV_NAME TYPE CHAR100.
+    DATA : gv_name TYPE char100.
+    data : gv_name1 type char100.
 
   PROTECTED SECTION.
   PRIVATE SECTION.
